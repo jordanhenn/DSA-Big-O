@@ -1,0 +1,34 @@
+1. 
+    1) O(1) - constant time
+    2) O(n) - linear time
+
+2. O(n) - constant time - size of value won't have any impact on how long it takes to divide it by 2
+
+3. O(n^k) - polynomial time - nested loops require first array to go through second loop to be compared to second array
+
+4. O(n) - linear time. Every number is just being multiplied by two, time is simply depenedent on how many items are in the array since
+it will take each of them the same amount of time to be mulitplied by two. 
+
+5. O(n) - linear time. Every item in the array is being compared to an item. Time is dependent upon how many 
+items are in the array.
+
+6. O(n^k) - polynomial time - array runs through a nested loop. Therefore there are two ticks per item. So
+the time is the size of the input to the power of 2. 
+
+7. It looks like the algorithm returns the fibonacci sequence up to the number of the sequence specified by the provided
+num variable. It would be O(n) - linear time. Each iteration pushes one item to the array, dependent on array size.
+
+8. O(log(n)) - logarithmic time. Each iteration of the while loop halves the array.
+
+9. O(1) - constant time - function determines a random item from an array, size of array doesn't affect time. 
+
+10. This function determines whether or not the provided input is a prime number. Big O is O(n). Linear relationship between time
+and size of input. 
+
+11. 
+
+12.
+
+13.
+
+14.
